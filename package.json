@@ -5,9 +5,9 @@
   "description": "Веб-сервер на базе ExpressJS для работы с данными по занятиям",
   "main": "./src/app.js",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+    "body-parser": "2.0.2",
+    "dotenv": "16.4.7",
+    "express": "5.0.1",
     "knex": "^3.1.0",
     "pg": "^8.13.1"
   },

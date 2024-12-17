@@ -1,15 +1,5 @@
 import db from '../db/db.js'
-
-export const parseRange = param => {
-  if (!param) return null
-
-  const parts = param.split(',').map(p => p.trim())
-
-  if (parts.length === 1) {
-    return [parseInt(parts[0], 10)]
-  }
-  return parts.map(p => parseInt(p, 10))
-}
+import { parseRange } from './common.js'
 
 export const fetchLessons = async (filters, limit, offset) => {
   const query = db('lessons').select('lessons.id', 'lessons.date', 'lessons.title', 'lessons.status')

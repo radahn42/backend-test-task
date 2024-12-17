@@ -1,6 +1,6 @@
 import express from 'express'
-import { fetchLessons, fetchLessonStudents, fetchLessonTeachers } from '../utils/db.utils.js'
-import { formatDate } from '../utils/date.utils.js'
+import { fetchLessons, fetchLessonStudents, fetchLessonTeachers } from '../utils/db.js'
+import { formatDate } from '../utils/date.js'
 
 const router = express.Router()
 

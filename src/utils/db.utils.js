@@ -1,4 +1,4 @@
-import db from '../database/db.js'
+import db from '../db/db.js'
 
 export const parseRange = param => {
   if (!param) return null

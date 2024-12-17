@@ -1,7 +1,7 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import bodyParser from 'body-parser'
-import lessonsRouter from './router/lessons.js'
+import lessonsRouter from './routes/lessons.js'
 
 dotenv.config()
 const app = express()
